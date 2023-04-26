@@ -21,5 +21,15 @@ public class Ejecutable {
                 hospital.numeroCamas, hospital.presupuesto);
         
         // System.out.println(hospital.nombre + "-" + hospital.numeroCamas);
+        // Objeto de tipo hospital
+        
+        Hospital utpl = new Hospital();
+        
+        utpl.nombre = "Hospital Santa Ines";
+        utpl.numeroCamas= 154;
+        utpl.presupuesto=5060.80;
+        
+        System.out.printf("%s - %d - %.1f\n", utpl.nombre,
+                utpl.numeroCamas, utpl.presupuesto);
     }
 }

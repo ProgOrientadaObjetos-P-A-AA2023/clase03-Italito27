@@ -20,3 +20,4 @@ public class Ejecutable {
                 hospital.numeroCamas, hospital.presupuesto);
     }
 }
+ 
